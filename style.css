@@ -9,6 +9,7 @@
 
 body{
     background-color: #f3f2f2;
+
 }
 
 
@@ -16,7 +17,20 @@ nav {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin: 5px;
+    
+
+    margin: 0;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section-spacing{
+    margin-top: 70px;
 }
 
 ul {
